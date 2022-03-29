@@ -37,11 +37,12 @@
 
 .nav-link {
     transform: translate(0, 60%);
+    background-color: #000000;
 }
 
 .nav-link:hover {
     color: white;
-    background-color: #000000;
+    background-color: #a66f0a;
 }
 
 .menu-item:visited {
@@ -79,5 +80,56 @@
 }
 
 body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.float_left {
+    float: left;
+}
+
+#section_article_column {
+    width: 60%;
+    margin: .5px;
+    font-family: "Source Sans Pro", sans-serif;
+    box-shadow: 5px 5px 10px #474343;
+}
+
+#aside_column {
+    width: 35%;
+    margin: .5px;
+    float: right;
+    box-shadow: 5px 5px 10px #474343;
+    font-family: "Source Sans Pro" sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.footer_style {
+    font-family: "Source Sans Pro", sans-serif;
+    box-shadow: 5px 5px 10px #474343;
+    margin: 20px .5px;
+    padding: 20px;
+}
+
+input [type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #A66f0a;
+    margin: 1rem 0;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+input[type=submit]:hover {
+    opacity: .9;
+}
+
+.contact-form {
+    padding: 20px;
     font-family: "Source Sans Pro", sans-serif;
 }
