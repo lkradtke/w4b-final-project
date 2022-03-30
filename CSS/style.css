@@ -41,12 +41,12 @@
 }
 
 .nav-link:hover {
-    color: white;
+    color: #F4EBDC;
     background-color: #a66f0a;
 }
 
 .menu-item:visited {
-    color: #ffffff;
+    color: #F4EBDC;
 }
 
 .nav-logo {
@@ -72,7 +72,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #F4EBDC;
     background-color: #000000b0;
     padding: 15px;
     font-family: "Playfair Display", serif;
@@ -92,6 +92,7 @@ body {
     margin: .5px;
     font-family: "Source Sans Pro", sans-serif;
     box-shadow: 5px 5px 10px #474343;
+    padding: 10px;
 }
 
 #aside_column {
@@ -102,6 +103,14 @@ body {
     font-family: "Source Sans Pro" sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #A66f0a;
+}
+
 .clearfix {
     clear: both;
 }
@@ -110,7 +119,39 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     box-shadow: 5px 5px 10px #474343;
     margin: 20px .5px;
-    padding: 20px;
+    /* padding: 20px; */
+    background-color: #A66f0a;
+    color: #F4EBDC;
+    display: table;
+    width: 100%;
+}
+
+.email {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.emlink {
+    color: #F4EBDC;
+}
+
+.footercopy {
+    display: table-cell;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.googlemap {
+    display: table-cell;
+    width: 50%;
+    text-align: right;
+}
+
+.i_google {
+    transform: translate(-2%, 0);
+    padding: 10px;
+    
 }
 
 input [type=text], textarea {
@@ -132,4 +173,35 @@ input[type=submit]:hover {
 .contact-form {
     padding: 20px;
     font-family: "Source Sans Pro", sans-serif;
+}
+
+.imagecolumn {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    margin: 10px;
+    font-size: smaller;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.profileimage {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+    /* padding: 5px; */
+}
+
+.imgposition {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
