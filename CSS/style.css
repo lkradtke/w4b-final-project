@@ -107,7 +107,11 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+.asidelinks:visited, .videolink:visited {
+    color: #A66f0a;
+}
+
+.asidelinks:hover, .videolink:hover {
     color: #A66f0a;
 }
 
@@ -143,6 +147,19 @@ a:visited {
     text-align: center;
     vertical-align: bottom;
     line-height: 3px;
+    color: #F4EBDC;
+}
+
+.social:visited {
+    color: #F4EBDC;
+}
+
+.social {
+    color:#F4EBDC
+}
+
+.social:hover {
+    opacity: .5;
 }
 
 .footerlogo {
