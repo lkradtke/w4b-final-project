@@ -57,7 +57,7 @@
 /*hero image style*/
 
 .hero-image {
-    background-image: url(/img/palette-with-brush-3.jpg);
+    background-image: url(img/palette-with-brush-3.jpg);
     height: 400px;
     width: 100%;
     background-position: center;
@@ -254,7 +254,7 @@ input[type=submit]:hover {
 }
 
 .hero-image-about {
-    background-image: url(/img/redfloral.jpg);
+    background-image: url(img/redfloral.jpg);
     height: 400px;
     width: 100%;
     background-position: center;
@@ -264,7 +264,7 @@ input[type=submit]:hover {
 }
 
 .hero-image-contact {
-    background-image: url(/img/swatch.jpg);
+    background-image: url(img/swatch.jpg);
     height: 400px;
     width: 100%;
     background-position: center;
